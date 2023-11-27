@@ -9,6 +9,8 @@ import java.util.Scanner;
 
 public class Solution {
 
+
+
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -33,6 +35,14 @@ public class Solution {
         // k will be the value we want the numbers to add up to.
         System.out.print("whats k= (a number that the two numbers from the list will add up to): ");
         int k = input.nextInt();
+
+        solveProblem(list, k);
+
+
+    }
+
+    // create the solveProblem method
+    public static void solveProblem(int[] list, int k) {
 
         int num1;
         int num2;
