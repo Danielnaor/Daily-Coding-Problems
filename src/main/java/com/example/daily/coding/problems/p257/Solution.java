@@ -21,19 +21,19 @@ public class Solution {
 
         // 3, 7, 5, 6, 9
         Integer[] arr = {3, 7, 5, 6, 9};
-        System.out.println(findSmallestWindow(arr));
+        System.out.println(findSmallestWindow(arr)); // (1, 3)
         //3, 5, 6, 7, 9
         arr = new Integer[]{3, 5, 6, 7, 9};
-        System.out.println(findSmallestWindow(arr));
+        System.out.println(findSmallestWindow(arr)); // the array is already sorted
 
         //5, 4, 3, 2, 1
         arr = new Integer[]{5, 4, 3, 2, 1};
-        System.out.println(findSmallestWindow(arr));
+        System.out.println(findSmallestWindow(arr)); // (0, 4)
 
 
         //1,2,4,3,5,6
         arr = new Integer[]{1,2,4,3,5,6};
-        System.out.println(findSmallestWindow(arr));
+        System.out.println(findSmallestWindow(arr)); // (2, 3)
 
 
 
@@ -64,12 +64,6 @@ public class Solution {
         } else {
             return "the array is already sorted";
         }
-
-
-
-
-
-        
 
     }
 
